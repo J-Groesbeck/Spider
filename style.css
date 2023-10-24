@@ -1,0 +1,29 @@
+html {
+    background: #ff785a;
+}
+
+/* Bonus */
+html:hover .spider {
+    top: -120%;
+}
+
+.spider {
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    left: 30%;
+
+    /* 4. Animatie */
+    animation: swing 2s infinite;
+    transform-origin: top;
+
+    /* Bonus */
+    transition: 1s ease-in-out;
+}
+
+.spider .spiderweb {
+    width: 2px;
+    height: 200px;
+    margin-left: 49px;
+    background: rgba(255,255,255, .7);
+}
